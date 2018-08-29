@@ -92,6 +92,21 @@
   list
 
 ##########################################################
+# test sort command
+##########################################################
+
+  # add people
+  add Esther Potato p/555555 e/esther@notreal.potato
+  add Adam Brown p/111111 e/adam@gmail.com
+  add Charlie Dickson e/charlie.d@nus.edu.sg p/333333
+
+  # list all
+  list
+
+  # sort all
+  sort
+
+##########################################################
 # test clear command
 ##########################################################
 
